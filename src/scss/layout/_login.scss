@@ -1,0 +1,37 @@
+            .contenedor {
+                width: auto;
+                display: flex;
+                justify-content: center;
+                form {
+                    margin: 2rem auto;
+                    display: flex;
+                    justify-content: space-between;
+                    flex-wrap: wrap;
+                    legend {
+                        margin-bottom: 3rem;
+                        margin: 3rem auto;
+                        flex-basis: 100%;
+                        text-align: center;
+                    }
+                    div {
+                        label {
+                            margin-bottom: 1rem;
+                        }
+                        display: flex;
+                        flex-direction: column;
+                        flex-basis: calc(50% - 1rem);
+                    }
+                    .contenedor-boton {
+                        display: flex;
+                        justify-content: flex-end;
+                        flex-basis: 100%;
+                    }
+                }
+            }
+            
+            .main-login {
+                h1 {
+                    color: $naranja-oscuro;
+                    font-weight: bold;
+                }
+            }

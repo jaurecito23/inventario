@@ -1,0 +1,30 @@
+.contenedor-boton {
+    button {
+        margin-bottom: 3rem;
+        background-color: $naranja-muy-oscuro;
+        color: $blanco;
+        font-size: 4rem;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border: none;
+        border-radius: 1.2rem;
+        height: 8rem;
+        padding: 4rem;
+        width: auto;
+        display: flex;
+        align-items: center;
+        transition: color .4s ease-in-out, background-color 1.2s ease-in-out, font-size 2s ease-in-out;
+        &:hover {
+            background-color: $naranja-muy-claro;
+            color: $negro;
+            font-size: 6rem;
+        }
+    }
+}
+
+.boton {
+    font-weight: bold;
+    color: $blanco;
+    font-size: 2rem;
+    margin: 2rem 0;
+    max-width: 20%;
+}

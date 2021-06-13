@@ -1,0 +1,80 @@
+                         .formulario-templados,
+                         .formulario-buscar,
+                         form {
+                             legend,
+                             label {
+                                 font-size: 2rem;
+                                 font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                                 color: $naranja-normal;
+                             }
+                             legend {
+                                 font-size: 3.2rem;
+                                 color: $naranja-oscuro;
+                             }
+                             input {
+                                 height: 3rem;
+                             }
+                             .campo {
+                                 margin: 2rem auto;
+                                 display: flex;
+                                 input,
+                                 label,
+                                 select {
+                                     margin-left: 1rem;
+                                 }
+                                 select {
+                                     background-color: $naranja-normal;
+                                 }
+                                 align-items: center;
+                             }
+                             .submit {
+                                 display: flex;
+                                 justify-content: flex-end;
+                             }
+                             .contenedor-formulario-templados {
+                                 width: 35%;
+                                 margin-left: 1rem;
+                             }
+                             .input-buscar {
+                                 margin: 0 auto 0 auto;
+                                 display: block;
+                                 height: 5rem;
+                                 width: 40%;
+                             }
+                             &.buscar-form {
+                                 width: 80%;
+                             }
+                         }
+                         
+                         .alerta {
+                             text-align: center;
+                             margin: 1rem 0;
+                             padding: .8rem;
+                             &.error {
+                                 background-color: red;
+                             }
+                             &.excelente {
+                                 background-color: green;
+                             }
+                             &.oculto {
+                                 display: none;
+                             }
+                         }
+                         
+                         input[type="submit"],
+                         .buscar {
+                             background-color: $naranja-oscuro;
+                             display: flex;
+                             &:hover {
+                                 cursor: pointer;
+                                 width: 90%;
+                             }
+                         }
+                         
+                         .buscar {
+                             margin-left: .5rem;
+                         }
+                         
+                         .formulario-buscar {
+                             grid-column: 1/4;
+                         }

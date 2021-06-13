@@ -1,0 +1,17 @@
+.footer {
+    .contenido-footer {
+        margin: 0 auto 0 auto;
+    }
+    .navegacion {
+        a {
+            font-size: 2rem !important;
+            ;
+        }
+    }
+    .nombre-usuario {
+        font-size: 4rem;
+        font-weight: bold;
+        color: $blanco;
+        margin-bottom: 10rem;
+    }
+}
